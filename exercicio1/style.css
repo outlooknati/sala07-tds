@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    background-color: blueviolet;
+    color: antiquewhite;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: 2px solid blueviolet;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
