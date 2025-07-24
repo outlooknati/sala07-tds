@@ -44,4 +44,10 @@ function media(){
     var n5 = document.getElementById("n5").valueAsNumber
     var resposta = document.getElementById("respmedia")
     resposta.textContent = (n1 + n2 + n3 + n4 + n5)/5
+    var validacao = (n1 + n2 + n3 + n4 + n5)/5
+    if(validacao >= 7){
+        resposta.style.color = 'green'
+    }else{
+        resposta.style.color = 'red'
+    }
 }
